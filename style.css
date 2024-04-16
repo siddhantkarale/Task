@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Whatsapp {
+    height: 27px;
+    width: 25px;
+}
+
+#heading {
+    font-size: 50px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.DateOfferPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    height: 409px;
+    width: 944px;
+}
+#left-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftfirstdiv img {
+    height: 30px;
+    width: 33px;
+}
+
+#leftfirst {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.leftfirstdiv {
+    height: 71px;
+    width: 224px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+
+}
+
+#leftsecond {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    width: 458px;
+    border: solid 1px black;
+}
+
+#leftsecond img {
+    width: 28px;
+    height: 30px;
+}
+
+#leftsecond div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#leftthird {
+    background-color: red;
+    height: 190px;
+    width: 458px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#thirdfirst {
+    background-color: blue;
+    width: 436px;
+    height: 158px;
+    border-radius: 10px;
+}
+
+#leftfourth {
+    width: 400px;
+    height: 37px;
+}
+
+#leftfourthreactangle {
+    position: relative;
+    height: 37px;
+    width: 400px;
+    border: 1px solid #000;
+    border-top: 0;
+}
+
+#leftfourthtext {
+    position: absolute;
+    top: 25px;
+    left: 117px;
+    width: 166px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
