@@ -5,6 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #Whatsapp {
     height: 27px;
     width: 25px;
@@ -55,7 +62,7 @@
     width: 590px;
 }
 
-#main {
+#main1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,35 +269,38 @@ font-size: 20px;
 }
 
 #partners {
-    border: 2px solid rgb(53, 235, 187);
+    margin-top: 70px;
+    border: 2px solid rgb(42, 165, 132);
     position: relative;
     border-radius: 15px;
-
+    margin-bottom: 70px;
+    width: 1000px;
 }
 
 #partnerstext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     font-family: sans-serif;
-    left: 50%;
+    left:50%;
     z-index: 1;
     top: 0%;
     background-color: #c8eadf;
     font-size: 28px;
     transform: translate(-50%, -50%);
+    width: 435px;
 }
 
 #partnersimg {
     padding: 38px 18px 18px;
 }
 
-.middlebig {
+.main2-Rectangle {
     background-color: #c0e1d6;
     padding-top: 60px;
     box-sizing: border-box;
 }
 
-#innerdiv {
-    text-align: center;
-    font-size: 20px;
-}
 
