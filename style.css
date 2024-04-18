@@ -34,6 +34,10 @@
     border-radius: 10px;
 }
 
+#one p{
+    margin-top: 10px;
+}
+
 #one p {
     font-size: 20px;
 }
